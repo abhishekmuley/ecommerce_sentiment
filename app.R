@@ -17,16 +17,8 @@ library(gtrendsR)
 library(base64enc)
 
 
-
-
 #Ecommerce 
 pacman::p_load(XML, dplyr, stringr, rvest, audio)
-
-
-
-
-
-
 
 
 #twitter API Outh
@@ -42,12 +34,7 @@ access_token <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 setup_twitter_oauth(api_key,api_secret)
 
 
-
-
 options(shiny.error=recover)
-
-
-
 
 
 shinyApp(
@@ -160,15 +147,7 @@ shinyApp(
                                      
                                      column(12, offset = 0.5,
                                             
-                                            p("We take this opportunity to our thank Project Guide Prof. R. C. Salunkhe, Asst.
-                                              Professor, Sinhgad Institute of Technology and Science, Narhe for his exemplary guid-
-                                              ance, monitoring and constant encouragement throughout the course of this project.
-                                              We would specially thank Prof. J. B. Karande,Project Co-ordinator, for his cordial
-                                              support as he gave the permission to use all required equipment and the necessary
-                                              material to complete the project. We sincerely thank Dr. A. P. Adsul, Head of
-                                              Department, Information Technology, Sinhgad Institute of Technology and Science,
-                                              Narhe and Dr. S. N. Mali, Principal, Sinhgad Institute of Technology and Science,
-                                              Narhe, for their valuable inputs ")
+                                            p("XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
                                             
                                             )
                                     
@@ -513,18 +492,9 @@ shinyApp(
     })#end Twitter sentiment
     
     
+     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     #START Twitter WORDcLOUD
     
     observeEvent(input$Twitter_Sentiment_analysis, {
@@ -608,14 +578,7 @@ shinyApp(
     })# END Twitter WORDCLOUD
     
     
-    
-    
-    
-    
-    
-    
-    
-    
+ 
     
     #heat map
     
@@ -654,15 +617,7 @@ shinyApp(
     })
     #end heat map
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     
     # Ecommerce
     
@@ -796,15 +751,7 @@ shinyApp(
         
         return(df)
       }
-      
-      
-      
-      
-      
-      
-      
-      
-      
+ 
       pages <- 3
       
       reviews_all <- NULL
@@ -852,10 +799,7 @@ shinyApp(
     
     
     #google trends
-    
-    
-    
-    
+
   }
   
     )
