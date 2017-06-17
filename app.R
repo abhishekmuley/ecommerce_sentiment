@@ -31,13 +31,13 @@ pacman::p_load(XML, dplyr, stringr, rvest, audio)
 
 #twitter API Outh
 
-api_key <- "C9c3mUyIVOXaUjqjVtRKwIV5Y"
+api_key <- XXXXXXXXXXXXXXXXXXXXXX"
 
-api_secret <- "XWgA157ex0ppIHzuyt6ONGHWJieNEAT8ywMDAZtFlBpF2i9Vuw"
+api_secret <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-access_token <- "753188209278935040-kn3RXlI5bLvKGZNRcAOdPKVK61bd2mO"
+access_token <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-access_token <- "753188209278935040-kn3RXlI5bLvKGZNRcAOdPKVK61bd2mO"  
+access_token <- "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"  
 
 setup_twitter_oauth(api_key,api_secret)
 
